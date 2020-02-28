@@ -1,0 +1,18 @@
+
+li {
+    list-style-type: none;
+    float: right;
+    margin-left: ;
+    color: brown;
+}
+
+#up-menu{
+    height: 150px;
+    background-image: url("../images/California-Pizza-Kitchen-PARTNER.jpg");
+    opacity: 4;
+}
+
+#header {
+    text-align: center;
+    color: black;
+} 
