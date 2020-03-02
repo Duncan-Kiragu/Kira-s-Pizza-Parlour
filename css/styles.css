@@ -263,15 +263,19 @@ hr {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  
   footer h2 {
     padding-bottom: 14px;
   }
+
   footer h3 {
     padding-top: 8px;
   }
+
   footer p {
     color: #ffffff;
   }
+
   footer span {
     font-weight: bold;
     padding-left: 24px;
