@@ -6,7 +6,7 @@ function pizza (size, crust, toppo) {
 }
 
 pizza.prototype.fullOrder= function() {
-  return "You ordered a " + this.size + " " + this.crust +" pizza with " + this.toppo + "topping";
+  return "You ordered a " + this.size + " " + this.crust +" pizza with " + this.toppo + " " + "topping";
 }
 
 
