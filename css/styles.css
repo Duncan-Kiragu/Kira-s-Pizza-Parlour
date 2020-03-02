@@ -190,40 +190,40 @@ hr {
   background-image:linear-gradient(rgba(113, 224, 21, 0.562), rgba(39, 47, 165, 0.986)), url('../images/bg.jpg');
 }
 
-#section-4 {
-  background-color: cornflowerblue;
-  height: 300px;width: auto;
-}
+  #section-4 {
+    background-color: cornflowerblue;
+    height: 300px;width: auto;
+  }
+    /*social icons container*/
+  .social_icons_rounded ul {
+    padding: 0;
+    padding-top: 40px;
+    list-style: none;
+    margin-top: 200px;
+    margin-left: 600px
+  }
 
-.social_icons_rounded ul {
-  padding: 0;
-  padding-top: 40px;
-  list-style: none;
-  margin-top: 200px;
-  margin-left: 600px
-}
+  .social_icons_rounded ul li a {
+    float: left;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #e0e0e0;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px solid #e0e0e0
+  }
 
-.social_icons_rounded ul li a {
-  float: left;
-  border-radius: 50%;
-  line-height: 40px;
-  color: #e0e0e0;
-  height: 40px;
-  width: 40px;
-  text-align: center;
-  margin-bottom: 40px;
-  border: 1px solid #e0e0e0
-}
-
-.social_icons_rounded ul li a i {
-  font-size: 16px
-}
+  .social_icons_rounded ul li a i {
+    font-size: 16px
+  }
 
   #contact {
     padding-top: 80px;
     padding-bottom: 100px;
   }
-  
+
   #contact .col-md-8 {
     margin-bottom: 32px;
   }
