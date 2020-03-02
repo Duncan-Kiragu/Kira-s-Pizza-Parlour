@@ -1,16 +1,16 @@
-# Kira-s-Pizza-Parlour
-#  Pizza Palace
-  Pizza palace is a order and delivery platform that gives you the comfort of seating back and getting your pizza order at the comfort of your living room or anywhere you would desire it delivered.
+# KIRA'S PIZZA PARLOUR
 
-  [link to platform](https://bryan4real.github.io/week4ip/)
+  Kira's pizza parlour is an order and delivery platform that gives you the comfort of seating back and getting your pizza order at the comfort of your living room or anywhere you would desire it delivered.
 
-# Description
-> on landing on the page it user comprehensive and  can be navigated with out much hustle. all you need is a few click and your order is done. On the landing page you will be able to select your order by simply clicking on the images representing your desired order.
+  [link to platform]()
+
+# DESCRIPTION
+> The landing site for Kira's Pizza Parlour whereby the user can scroll the restaurant's menu and pick-out their desired type
+    ; the users can now order the food choices online and choose whether they will pick-up from a known location or use delivery services.
 
 ## SCREENSHOT
 
   ![SCREENSHOT](images/SCREENSHOT.png)
-
 
 
 # TECHNOLOGIES USED
