@@ -312,12 +312,11 @@ hr {
     position: relative;
     padding: 0;
   }
-  
+
   .social-icon li a:hover {
     background: #F6D76B;
     top: 5px;
   }
-  
   
   #copyright {
     background: #343434;
