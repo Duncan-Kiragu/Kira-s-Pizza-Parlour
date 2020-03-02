@@ -276,6 +276,7 @@ hr {
     font-weight: bold;
     padding-left: 24px;
   }
+  /*footer span box-model*/
   footer .ph, footer .address {
     padding-top: 12px;
     padding-bottom: 12px;
