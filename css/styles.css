@@ -1,18 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Trade+Winds&display=swap');
 
-li {
-    list-style-type: none;
+#body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/pepoo.jpg');
+    backface-visibility: visible;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #slogan {
+    text-align: center;
+    font-family: 'Trade Winds';
+    color: green;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Trade Winds';
+    cursor: pointer;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #order-button:hover {
+    background-color: red;
+    color: whitesmoke;
+  }
+
+  .topnav a.active {
+    background-color: grey;
+    color: white;
+  }
+  
+  .topnav-right {
     float: right;
-    margin-left: ;
-    color: brown;
-}
+  }
+
+  input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: url('../images/search-icon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
 
 #up-menu{
-    height: 150px;
-    background-image: url("../images/California-Pizza-Kitchen-PARTNER.jpg");
+    height: 180px;
+    background-color: transparent;
     opacity: 4;
 }
 
 #header {
     text-align: center;
     color: black;
+    background-color: white;
+    font-family: 'Lobster';
 } 
+
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Lobster';
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Lobster';
+}
+
+#myBtn {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+#myBtn:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.section-content-1 {
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+hr {
+  color: white;
+  border: 4px;
+  background-color: white;
+}
+
+#SLOG {
+  font-family: 'Trade Winds';
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  background-color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.card-body {
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/Pepperoni3-400px.jpg");
+}
+
+.card-title, .card-text {
+  color: coral;
+  font-family: 'Trade Winds';
+}
+
+.big-title {
+  font-family: 'Trade Winds';
+  color: green;
+  background-color: pink;
+}
+
+#item-button {
+  text-align: center;
+  margin-left: 450px;
+}
+
+#myDIV {
+  display: none;
+}
+
+#body-2 {
+  background-image:linear-gradient(rgba(113, 224, 21, 0.562), rgba(39, 47, 165, 0.986)), url('../images/bg.jpg');
+}
+
+#section-4 {
+  background-color: cornflowerblue;
+  height: 300px;width: auto;
+}
+
+.social_icons_rounded ul {
+  padding: 0;
+  padding-top: 40px;
+  list-style: none;
+  margin-top: 200px;
+  margin-left: 600px
+}
+
+.social_icons_rounded ul li a {
+  float: left;
+  border-radius: 50%;
+  line-height: 40px;
+  color: #e0e0e0;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  border: 1px solid #e0e0e0
+}
+
+.social_icons_rounded ul li a i {
+  font-size: 16px
+}
+
+  #contact {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  #contact .col-md-8 {
+    margin-bottom: 32px;
+  }
+  #contact .form-control {
+    background: #ffffff;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+  #contact .form-control:focus {
+    border-color: #f9f9f9;
+  }
+  #contact input {
+    height: 48px;
+  }
+  #contact input[type="submit"] {
+    background: transparent;
+    border: 2px solid #999;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    height: 50px;
+  }
+  #contact input[type="submit"]:hover {
+    background: #999;
+    color: #ffffff;
+  }
+  
+  footer {
+    background: transparent;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  footer h2 {
+    padding-bottom: 14px;
+  }
+  footer h3 {
+    padding-top: 8px;
+  }
+  footer p {
+    color: #ffffff;
+  }
+  footer span {
+    font-weight: bold;
+    padding-left: 24px;
+  }
+  footer .ph, footer .address {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  footer .fa {
+    font-size: 12px;
+    padding-right: 10px;
+  }
+  
+  /* social icon */
+  .social-icon {
+    padding: 0;
+  }
+  .social-icon li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+  }
+  .social-icon li a {
+    background: #f0f0f0;
+    border-radius: 50%;
+    color: #5C5C5C;
+    font-size: 16px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    margin-top: 12px;
+    margin-right: 16px;
+    top: 0;
+    position: relative;
+    padding: 0;
+  }
+  .social-icon li a:hover {
+    background: #F6D76B;
+    top: 5px;
+  }
+  
+  
+  #copyright {
+    background: #343434;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  #copyright p {
+    color: #ffffff;
+  }
+
+  #copyright a {
+    color: #ffffff;
+  }
+
+  #copyright a:hover {
+    color: #FF0;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+  }
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #section-4, .social_icons_rounded {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #section-4, .social_icons_rounded {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 1400px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
