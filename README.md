@@ -2,7 +2,7 @@
 
   Kira's pizza parlour is an order and delivery platform that gives you the comfort of seating back and getting your pizza order at the comfort of your living room or anywhere you would desire it delivered.
 
-  [link to platform]()
+  [link to platform](https://duncan-kiragu.github.io/Kira-s-Pizza-Parlour/)
 
 # DESCRIPTION
 > The landing site for Kira's Pizza Parlour whereby the user can scroll the restaurant's menu and pick-out their desired type
