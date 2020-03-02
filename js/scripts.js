@@ -20,8 +20,7 @@ $(document).ready(function() {
                       '<option>Small</option>'+
                       '</select>'
                           );
-    
-  });
+     });
   $("button#deliver").click(function(event) {
     event.preventDefault();
     var address=prompt("Enter your Address :");
