@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster|Trade+Winds&display=swap');
-
+  /*Identical css file for two pages hence body element ID set*/
   #body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -15,7 +15,7 @@
       font-family: 'Trade Winds';
       color: green;
     }
-    
+    /*start of styling top nav bar*/
     .topnav {
     overflow: hidden;
     background-color: transparent;
