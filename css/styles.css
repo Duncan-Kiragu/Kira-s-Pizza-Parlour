@@ -294,7 +294,7 @@ hr {
     display: inline-block;
     padding: 0;
   }
-  
+
   .social-icon li a {
     background: #f0f0f0;
     border-radius: 50%;
@@ -312,6 +312,7 @@ hr {
     position: relative;
     padding: 0;
   }
+  
   .social-icon li a:hover {
     background: #F6D76B;
     top: 5px;
