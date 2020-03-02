@@ -5,53 +5,235 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/notify.js"></script>
+    <script>
+       $(document).ready(function(){
+      $("#item-button").click(function(){
+        $("#myDIV").fadeIn(1000).fadeToggle(6000);
+        $("myDIV").fadeToggle(1000);
+        });
+      $("#get-now").click(function(){
+        alert("A 10% discount will be appended once you place your order. Thank you for choosing Kira's Pizza Parlour");
+       });
+      });
+    </script>
     <title>Kira's Pizza Parlour</title>
 </head>
-<body>
+<body id="body">
     <div class="container-fluid">
         <section id="section-1">
             <ul id="up-menu">
                 <h1 id="header">Kira's Pizza Parlour</h1>
-                <li>Home</li>
-                <li>Contact Us</li>
-                <li>About</li>
-                <a href="">
-                    <button id="order" bg="warning">ORDER</button>
-                </a>
+                <h3 id="slogan"><em>"The place to refuel your drive"</em></h3>
+                <br>
+                
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#section-3" id="myBtn"><button id="myBtn">Today's Deals  <i class="fa fa-angle-double-down" style="font-size:24px"></i></button></a>
+                <a href="#section-4">Contact</a>
+                <a id="order-button" href="order.html">ORDER NOW </a>
+                <div class="topnav-right">
+                     <a id="input-text">
+                        <input type="text" name="search" placeholder="Search..">
+                     </a>
+                     <a href="#about">About</a>     
+                     <hr>             
+                  </div>
+                </div>
+            </div>
             </ul>
+            <hr>
         </section>
-        <section id="section-2">
+        <hr>
+        <br><br><br>
+        <div class="container">
+          <section id="section-0">
+            <div class="menu">
+              <img src="images/Pizza Menu 1.png" alt="Lira's Parlour Pizza menu" class="responsive">
+            </div>
+          </section>
+        </div>
+          <section id="section-2">
+            
+                <span class="section-content-1">
+                    <br><br>
+                    <h2 id="SLOG">ENJOY FRESH DEALS EVERYDAY</h2>
+                </span>
+            </div>     
 
-
-
-
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
+            <h4>We are the talk of the town</h4>
+            <div class="column">
+                <div class="content">
+                  <img src="images/Pepperoni3-400px.jpg" style="width:100%">
+                  <h3>Love it</h3><br>
+                </div>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <img src="images/400px-Flameukeusche_1.jpg"  style="width:100%">
+                  <h3>Grab it</h3>
+                 <br>
+                </div>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <img src="images/shutterstock_1110916493-390x285.jpg" style="width:100%">
+                  <h3>Eat it</h3><br><br>
+                </div>
+              </div>
+        </div>
+        <br><br><br>
+        <span class="content-write">
+          <hr>
+            <h4>We are a customer oriented eatery where our customers are our <br>
+                 first priority which has over the years earned us good reviews from satisfied customers</h4>
+        </span>
+        <h4> below are reviews from satisfied customers</h4>
+        <div class="container">
+         <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="images/af2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Peris - Runda</h5>
+              <p class="card-text"><em>"Any type of pizza you want you name it they have got it plus they deliver it
+                bundled with love"
+              </em></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/af3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">James - Muthaiga</h5>
+              <p class="card-text"><em>'The pizza never gets better than this"</em></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/af5.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Ruth - Nairobi West</h5>
+              <p class="card-text">"I loved the service plus their delivery was on time I am a super impatient person
+                that is why i totally loved their respect of time I got my order in exactly ten minutes as I had been notified after checking out"
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+              </section>
+              <br><br>
+              <section id="section-3">
+                <div class="container">
+                  <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+              <button type="button" onclick="myFunction()" id="item-button" class="btn btn-primary" data-toggle="modal" data-target="#modalDiscount">
+                GIFT FOR OUR CUSTOMERS</button>
+                  </div>
+              <div id="myDIV" class="modal-dialog modal-side modal-bottom-right modal-notify modal-danger" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <p class="heading">Discount offer:
+                      <strong>10% off</strong>
+                    </p>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                  </div>
+              
+                  <div class="modal-body">
+              
+                    <div class="row">
+                      <div class="col-3">
+                        <p></p>
+                        <p class="text-center">
+                          <i class="fas fa-gift fa-4x"></i>
+                        </p>
+                      </div>
+              
+                      <div class="col-9">
+                        <p>Sharing is caring. Therefore, from time to time we like to give our visitors small gifts. Today is
+                          one
+                          of those days.</p>
+                        <p>
+                          <strong>Copy the following code and use it at the checkout. It's valid for
+                            <u>one day</u>.</strong>
+                        </p>
+                        <h2>
+                          <span class="badge">v52gs1</span>
+                        </h2>
+              
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer flex-center">
+                    <a type="button" onclick="myfunc()" id="get-now" class="btn btn-danger">Get
+                      it now
+                      <i class="far fa-gem ml-1 white-text"></i>
+                    </a>
+                    <a type="button" class="btn btn-outline-danger waves-effect" data-dismiss="modal">No, thanks</a>
+                  </div>
+                </div>
+              </div>
+                </div>
+              </section>
+         
+              <section id="contact" class="parallax-section">
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+                      <a href="order.html">
+                      <input name="submit" type="submit" class="form-control" id="submit" value="Make a reservation"></a>
+                    </div>
+                    <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+                     <a href="order.html"><input name="submit" type="submit" class="form-control" id="submit" value="Order Now"></a>
+                    </div>
+                    <hr>
+                  </div>
+            <footer class="parallax-section">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <h2 class="heading">Contact Info.</h2>
+                    <div class="ph">
+                      <p><i class="fa fa-phone"></i> Phone</p>
+                      <h4>+254(732)-234-256</h4>
+                    </div>
+                    <div class="address">
+                      <p><i class="fa fa-map-marker"></i> Our Location</p>
+                      <h4>Ground Floor, Ngong Lane Plaza, Nairobi-Kenya</h4>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <h2 class="heading">Open Hours</h2>
+                      <p>Sunday <span>10:30 AM - 10:00 PM</span></p>
+                      <p>Mon-Fri <span>9:00 AM - 8:00 PM</span></p>
+                      <p>Saturday <span>11:30 AM - 10:00 PM</span></p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <h2 class="heading">Follow Us</h2>
+                    <ul class="social-icon">
+                      <li><a href="https://facebook.com" class="fa fa-facebook wow bounceIn" data-wow-delay="0.3s"></a></li>
+                      <li><a href="https://twitter.com" class="fa fa-twitter wow bounceIn" data-wow-delay="0.6s"></a></li>
+                      <li><a href="https://github.com/Duncan-Kiragu/Kira-s-Pizza-Parlour" class="fa fa-github wow bounceIn" data-wow-delay="0.9s"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <section id="copyright">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 col-sm-12">
+                    <h3>KIRA'S PIZZA PARLOUR</h3>
+                    <p>Copyright © Kira's Pizza Parlour</p>
+                            
+            
+                  </div>
+                </div>
+              </div>
+            </section>
+  </div>
 </body>
 </html>
