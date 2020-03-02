@@ -145,50 +145,50 @@
     padding: 8px;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  background-color: black;
-}
+  .column {
+    float: left;
+    width: 33.33%;
+    background-color: black;
+  }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-.content {
-  background-color: white;
-  padding: 10px;
-}
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
 
-.card-body {
-  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/Pepperoni3-400px.jpg");
-}
+  .card-body {
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/Pepperoni3-400px.jpg");
+  }
 
-.card-title, .card-text {
-  color: coral;
-  font-family: 'Trade Winds';
-}
+  .card-title, .card-text {
+    color: coral;
+    font-family: 'Trade Winds';
+  }
 
-.big-title {
-  font-family: 'Trade Winds';
-  color: green;
-  background-color: pink;
-}
+  .big-title {
+    font-family: 'Trade Winds';
+    color: green;
+    background-color: pink;
+  }
 
-#item-button {
-  text-align: center;
-  margin-left: 450px;
-}
+  #item-button {
+    text-align: center;
+    margin-left: 450px;
+  }
 
-#myDIV {
-  display: none;
-}
+  #myDIV {
+    display: none;
+  }
 
-#body-2 {
-  background-image:linear-gradient(rgba(113, 224, 21, 0.562), rgba(39, 47, 165, 0.986)), url('../images/bg.jpg');
-}
+  #body-2 {
+    background-image:linear-gradient(rgba(113, 224, 21, 0.562), rgba(39, 47, 165, 0.986)), url('../images/bg.jpg');
+  }
 
   #section-4 {
     background-color: cornflowerblue;
