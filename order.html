@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kira's Pizza Parlour</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script>
+    function reloadPage(){
+        location.reload(true);
+    }
+</script>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=Lobster|Trade+Winds&display=swap');
+
+      h2, h3 {
+        font-family: 'Trade Winds';
+        color: crimson;
+        text-align: center;
+      }
+
+      #up-menu {
+        display: block;
+      }
+    </style>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/notify.js"></script>
+  </head>
+  <body id="body-2">
+    <div class="container">
+      <section id="section-diff">
+            <ul id="up-menu">
+                <h1 id="header">Kira's Pizza Parlour</h1>
+                <h3 id="slogan-2"><em>"The place to refuel your drive"</em></h3>
+                <br>
+            <div class="container">
+              <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+                <a href="index.html">
+                <input name="submit" type="submit" class="form-control" id="submit" value="Home">
+                </a>
+              </div>
+            </div>
+            </ul>
+            <hr><br><br>
+        </section>
+    <div class="container">
+      <div class="order">
+        <h2>Place your order</h2><br />
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Select pizza size</h3>
+            <div id="pizza-size">
+              <select class="form-control" id="size">
+                <option>Large - Ksh 1000</option>
+                <option>Medium - Ksh 800</option>
+                <option>Small - Ksh 400</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Select crust type</h3>
+            <div class="crust">
+              <select class="form-control" id="crust">
+                <option>Thin - Ksh 200</option>
+                <option>Thick - Ksh 200</option>
+                <option>Stuffed - Ksh 200</option>
+                <option>Deep - Ksh 200</option>
+                <option>Cheese-filled - Ksh 200</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6" id="toppings">
+            <h3>Select topping</h3>
+            <div class="top">
+              <select class="form-control" id="toppo">
+                <option>Beef - Ksh 200</option>
+                <option>chicken cubes- Ksh 200</option>
+                <option>Pepperoni - Ksh 200</option>
+                <option>Cheese - Ksh 200</option>
+                <option>Pineapples- Ksh 200  </option>
+                <option>Pork - Ksh 200  </option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6" id="btn">
+            <h3>Choose mode:</h3>
+            <ul id="pick">
+              <li>Deliver ordered package - Ksh 100</li>
+              <li>Pick-up ordered package</li>
+            </ul>
+            <div class="submit">
+              <button type="submit" class="btn btn-success" id="another">Add to cart</button>
+              <button type="submit" class="btn btn-success" id="make-order">Check-out</button>
+              <button type="submit" onclick="reload()" id="refresh" class="btn btn-success">Clear Cart</button>
+              <button type="submit" class="btn btn-danger" id="deliver">Delivery</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div id="show-order">
+        <ul id="customer-order">
+
+        </ul>
+      </div>
+  </body>
+</body>
+</html>
