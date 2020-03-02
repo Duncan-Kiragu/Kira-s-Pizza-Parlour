@@ -69,18 +69,18 @@
     width: 100%;
   }
 
-#up-menu{
-    height: 180px;
-    background-color: transparent;
-    opacity: 4;
-}
+  #up-menu{
+      height: 180px;
+      background-color: transparent;
+      opacity: 4;
+  }
 
-#header {
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-family: 'Lobster';
-} 
+  #header {
+      text-align: center;
+      color: black;
+      background-color: white;
+      font-family: 'Lobster';
+  } 
 
 h4 {
   text-align: center;
