@@ -126,23 +126,23 @@
     word-break: break-all;
   }
 
-hr {
-  color: white;
-  border: 4px;
-  background-color: white;
-}
+  hr {
+    color: white;
+    border: 4px;
+    background-color: white;
+  }
 
-#SLOG {
-  font-family: 'Trade Winds';
-}
+  #SLOG {
+    font-family: 'Trade Winds';
+  }
 
-.row {
-  margin: 8px -16px;
-}
+  .row {
+    margin: 8px -16px;
+  }
 
-.row,
-.row > .column {
-  padding: 8px;
+  .row,
+  .row > .column {
+    padding: 8px;
 }
 
 .column {
