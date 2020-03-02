@@ -253,7 +253,7 @@ hr {
     background: #999;
     color: #ffffff;
   }
-  
+
   footer {
     background: transparent;
     -webkit-background-size: cover;
@@ -294,6 +294,7 @@ hr {
     display: inline-block;
     padding: 0;
   }
+  
   .social-icon li a {
     background: #f0f0f0;
     border-radius: 50%;
