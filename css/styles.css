@@ -356,11 +356,11 @@ hr {
     }
   }
 
-@media screen and (max-width: 900px) {
-  #section-4, .social_icons_rounded {
-    width: 50%;
+  @media screen and (max-width: 900px) {
+    #section-4, .social_icons_rounded {
+      width: 50%;
+    }
   }
-}
 
 @media screen and (max-width: 600px) {
   #section-4, .social_icons_rounded {
