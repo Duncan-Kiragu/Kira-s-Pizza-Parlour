@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster|Trade+Winds&display=swap');
 
-#body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/pepoo.jpg');
-    backface-visibility: visible;
-    background-position: center;
-    background-size: cover;
-  }
+  #body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/pepoo.jpg');
+      backface-visibility: visible;
+      background-position: center;
+      background-size: cover;
+    }
 
-  #slogan {
-    text-align: center;
-    font-family: 'Trade Winds';
-    color: green;
-  }
-  
-  .topnav {
+    #slogan {
+      text-align: center;
+      font-family: 'Trade Winds';
+      color: green;
+    }
+    
+    .topnav {
     overflow: hidden;
     background-color: transparent;
   }
