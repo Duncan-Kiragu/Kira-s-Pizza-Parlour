@@ -68,7 +68,7 @@
   input[type=text]:focus {
     width: 100%;
   }
-
+  /*setting index html navbar to be transparent*/
   #up-menu{
       height: 180px;
       background-color: transparent;
@@ -93,7 +93,7 @@
     text-align: center;
     font-family: 'Lobster';
   }
-
+  /*styling button id myBtn*/
   #myBtn {
     border: none;
     background-color: transparent;
@@ -143,7 +143,7 @@
   .row,
   .row > .column {
     padding: 8px;
-}
+  }
 
   .column {
     float: left;
@@ -161,7 +161,7 @@
     background-color: white;
     padding: 10px;
   }
-
+  /*styling card-content*/
   .card-body {
     background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/Pepperoni3-400px.jpg");
   }
@@ -181,7 +181,7 @@
     text-align: center;
     margin-left: 450px;
   }
-
+  /*styling myDIV*/
   #myDIV {
     display: none;
   }
