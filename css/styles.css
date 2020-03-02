@@ -82,23 +82,23 @@
       font-family: 'Lobster';
   } 
 
-h4 {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  font-family: 'Lobster';
-}
+  h4 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lobster';
+  }
 
-h3 {
-  text-align: center;
-  font-family: 'Lobster';
-}
+  h3 {
+    text-align: center;
+    font-family: 'Lobster';
+  }
 
-#myBtn {
-  border: none;
-  background-color: transparent;
-  color: white;
-}
+  #myBtn {
+    border: none;
+    background-color: transparent;
+    color: white;
+  }
 
 #myBtn:hover {
   background-color: #ddd;
