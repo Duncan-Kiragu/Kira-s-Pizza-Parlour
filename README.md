@@ -13,7 +13,7 @@
 
 
 
-# Technologies used
+# TECHNOLOGIES USED
 
   - HTML
   - CSS
@@ -23,13 +23,16 @@
   - Notify JS
   - Markdown file
 
-# compatibility
+# COMPATIBILITY
 
-Compatible with all   
+Compatible with most browsers but advisably use Google Chrome or Chromium browsers 
 
-# Bugs
+# KNOWN BUGS
 
-  - No known Bugs.
+  - The javascript does not compute the total prices for items added to the cart;
+  - Also the alert pop-up for the address works even without input
+
+
 # CONTACT FOR SUPPORT
 
 
