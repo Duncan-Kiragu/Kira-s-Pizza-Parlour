@@ -39,7 +39,7 @@ Compatible with most browsers but advisably use Google Chrome or Chromium browse
 # LICENSE
 MIT License
 
-Copyright (c) 2019 **Brian Mwiruki**
+Copyright (c) 2020 **Duncan Kiragu**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
